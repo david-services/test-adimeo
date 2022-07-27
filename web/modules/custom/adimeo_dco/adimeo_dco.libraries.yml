@@ -1,0 +1,10 @@
+# Custom module library for general purposes.
+adimeo_dco:
+  js:
+    js/adimeo-dco.js: {}
+  css:
+    component:
+      css/adimeo-dco.css: {}
+  dependencies:
+    - core/drupalSettings
+

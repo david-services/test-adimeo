@@ -1,4 +1,4 @@
-uuid: 657b6861-38ee-4ea4-9357-9d66177de363
+uuid: 43a64538-00c3-467a-9898-2c5bb731b384
 langcode: fr
 status: true
 dependencies:
@@ -9,14 +9,14 @@ _core:
 id: bartik_local_tasks
 theme: bartik
 region: content
-weight: -40
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
   label: Onglets
-  provider: core
   label_display: '0'
+  provider: core
   primary: true
   secondary: true
 visibility: {  }

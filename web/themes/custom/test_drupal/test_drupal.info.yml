@@ -4,9 +4,18 @@ description: 'An empty theme with classy as base. Feel free to change its base t
 core_version_requirement: ^8 || ^9
 libraries:
   - test_drupal/main
-base theme: classy
+base theme: olivero
 regions:
   header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content_above: Content Above
   content: Content
-  sidebar_first: 'Sidebar first'
-  footer: Footer
+  sidebar: 'Sidebar'
+  content_below: 'Content Below'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'
+

@@ -1,0 +1,28 @@
+uuid: cf24f111-bc4f-46cb-9481-a18e1c5862f3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.frontpage
+  module:
+    - system
+    - views
+  theme:
+    - test_drupal
+id: formulaireexposefrontpagepage_1
+theme: test_drupal
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:frontpage-page_1'
+settings:
+  id: 'views_exposed_filter_block:frontpage-page_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

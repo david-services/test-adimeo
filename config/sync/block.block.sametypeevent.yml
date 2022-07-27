@@ -1,0 +1,28 @@
+uuid: 7f4365c7-31b5-457f-a137-11120f4c6446
+langcode: fr
+status: true
+dependencies:
+  module:
+    - adimeo_dco
+    - node
+  theme:
+    - test_drupal
+id: sametypeevent
+theme: test_drupal
+region: sidebar
+weight: 0
+provider: null
+plugin: same_type_event_block
+settings:
+  id: same_type_event_block
+  label: 'Same type event'
+  label_display: '0'
+  provider: adimeo_dco
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      event: event

@@ -1,0 +1,26 @@
+article { position: relative; }
+
+.event-type {
+  position: absolute;
+  top: -3rem;
+  right: 1rem;
+  color: #fff;
+}
+.event-date {
+  background-image: linear-gradient(160deg,#2494db 0%,#0d7ab8 78.66%);
+  color: #fff;
+  padding-left: 1rem;
+  left: 0;
+  margin-top: -2rem;
+  position: absolute;
+  top: -1rem;
+  border-radius: 8px;
+  right: 0;
+  font-size: small;
+}
+
+@media (min-width: 43.75rem) {
+  .event-date {
+    left: -5.86607rem;;
+  }
+}

@@ -1,4 +1,4 @@
-uuid: d04afb4c-d5df-4c4f-9f6d-8d1ae8f31cfa
+uuid: d7e3e9e8-75d3-4ad7-96aa-87d1f8ec3693
 langcode: fr
 status: true
 dependencies:
@@ -11,12 +11,12 @@ _core:
 id: bartik_breadcrumbs
 theme: bartik
 region: breadcrumb
-weight: 0
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
   label: 'Fils d''ariane'
-  provider: system
   label_display: '0'
+  provider: system
 visibility: {  }

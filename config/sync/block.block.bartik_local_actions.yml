@@ -1,4 +1,4 @@
-uuid: e1c5bdc2-f6ca-413a-9678-890b50ddd48c
+uuid: 7d2cf7ef-8339-48ed-aedf-c60c06d2bf39
 langcode: fr
 status: true
 dependencies:
@@ -9,12 +9,12 @@ _core:
 id: bartik_local_actions
 theme: bartik
 region: content
-weight: -20
+weight: -3
 provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
   label: 'Actions d''administration principales'
-  provider: core
   label_display: '0'
+  provider: core
 visibility: {  }

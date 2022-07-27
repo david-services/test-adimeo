@@ -1,4 +1,4 @@
-uuid: 7d13b1ed-ebb3-4e19-8f35-5fe6ebee5529
+uuid: c23bc4d7-0f01-4173-85ea-869e27ea2ce5
 langcode: fr
 status: true
 dependencies:
@@ -13,14 +13,14 @@ _core:
 id: bartik_account_menu
 theme: bartik
 region: secondary_menu
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
   label: 'Menu du compte de l''utilisateur'
-  provider: system
   label_display: '0'
+  provider: system
   level: 1
   depth: 1
   expand_all_items: false
